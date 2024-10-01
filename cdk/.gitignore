@@ -1,0 +1,12 @@
+# lib/configure-admissible.ts is not versioned here - it is intended
+# for you to create it with your own settings.
+lib/configure-admissible.ts
+
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
