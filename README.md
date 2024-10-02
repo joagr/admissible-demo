@@ -49,6 +49,14 @@ _Admissible_ requires but does **not** set up SES. You must do that beforehand.
 You must also test that your SES configuration is working with the From and To email addresses you intend to use.
 
 
+### NPM install for CDK
+
+```bash
+cd cdk
+npm install
+```
+
+
 ### Admissible Config
 
 The file `cdk/lib/configure-admissible.ts` is not included in this repository.

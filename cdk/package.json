@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@aws-solutions-constructs/aws-cloudfront-s3": "^2.62.0",
-    "admissible-email-passwordless": "git+file:///Users/john/projects/admissible-email-passwordless",
+    "admissible-email-passwordless": "github:joagr/admissible-email-passwordless",
     "aws-cdk-lib": "2.148.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
