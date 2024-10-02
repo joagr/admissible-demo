@@ -63,7 +63,7 @@ The file `cdk/lib/configure-admissible.ts` is not included in this repository.
 Create it with the following content,
 and then edit it to your desired configuration.
 Be sure to review the doc-comments for the properties in `AdmissibleConfig`
-[here](https://github.com/joagr/admissible-email-passwordless/blob/main/lib/admissible.ts).
+[here](https://github.com/joagr/admissible-email-passwordless/blob/main/lib/index.ts).
 The default values will **NOT** all work for you.
 
 ```typescript
