@@ -174,10 +174,12 @@ export class AdmissibleDemoStack extends cdk.Stack {
       // Delete the webapp's bucket and log bucket when the stack is deleted.
       // (This override of default behavior results in AWS_SOLUTIONS_CONSTRUCTS_WARNING.)
       bucketProps: {
+        versioned: false,
         autoDeleteObjects: true,
         removalPolicy: cdk.RemovalPolicy.DESTROY,
       },
       cloudFrontLoggingBucketProps: {
+        versioned: false,
         autoDeleteObjects: true,
         removalPolicy: cdk.RemovalPolicy.DESTROY,
       },
